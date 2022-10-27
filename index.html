@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>簽名檔截圖功能 - BYTE</title>
-	        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS -->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
@@ -24,10 +23,8 @@
           }
         }
       }
-      
     </script>
   </head>
- <!-- <body class="bg-neutral-800 text-white">  -->
   <body class="bg-white text-black">
     <div class="container mx-auto p-8" id="app">
       <div class="text-center">
@@ -35,66 +32,41 @@
       </div>
       <hr class="my-8 mx-auto max-w-3xl border-t border-gray-500 border-dashed"/>
       <!-- Section 1-->
- <!--     <section class="mx-auto p-4 max-w-3xl bg-neutral-900 border border-gray-200 rounded-xl" id="section1"> -->
 	  <section class="mx-auto p-4 max-w-3xl bg-white border border-gray-200 rounded-xl" id="section1">
         <div data-smartmail="gmail_signature">
-
-    <style>
-        /*畫一條再右邊的豎線*/
-        .link-right {
-            width: 8px;
-            height: 100%;
-            border-left: solid #ACC0D8 8px;
-        }
-
-    </style>
+			<style>
+				/*畫一條再右邊的豎線*/
+				.link-right {
+					width: 8px;
+					height: 100%;
+					border-left: solid #ACC0D8 8px;
+				}
+		    </style>
         <div class="news-contents wrapper">
             <article>
 				<table border="0">
 					<tr><td class="post-cat" colspan="2" style="line-height:16px;"><SPAN style="font-size: 16pt"><input  value="填入姓名" style="background-color:transparent;border:0;width:90px"> / &nbsp&nbsp<span style="font-size: 16pt; font-family: Verdana;; letter-spacing: 0pt;" lang="EN-US"><input value="填入英文姓名" style="width:180px"> </span> </td>
 					<tr><td colspan="2"><class="post-cat"><input value="填入部門" style="width:220px"></td></tr>
-					  <tr><td colspan="2" style="line-height:4px;">&nbsp </td></tr>
+					<tr><td colspan="2" style="line-height:4px;">&nbsp </td></tr>
 					<tr><td class="post-cat">M:</td><td><input style= "background-color:transparent;border:0;width:220px;border-style:none none solid none;" value="+886(0)912-345-678"></td></tr>
 					<tr><td class="post-cat">T:</td><td><input style="background-color:transparent;border:0;width:220px" value="+886(2)-8913-1808 #分機"></td></tr>
-					<tr><td class="post-cat">A:</td><td><input style="background-color:transparent;border:0;width:220px" value="231新北市新店區北新路三段205號B2F"></td></tr>
+					<tr><td class="post-cat">A:</td><td><input style="background-color:transparent;border:0;width:260px" value="231新北市新店區北新路三段205號B2F"></td></tr>
 					<tr><td class="post-cat">L:</td><td><input style="background-color:transparent;border:0;width:220px" value="lingID填這邊"></td></tr>
 				</table>
             </article>
-
             <aside>
 			<p class="link-right"></p>
-               
             </aside>
-
-            <div class="ad" style="width: 160px">
+			<div class="ad" style="width: 160px">
                 <img style="margin:0 auto; border: 0px solid" src="images/image002.png" alt="Image" >
             </div>
         </div>
 	<!-- /.news-contents -->
-		
-	 <!-- 	<h3 class="mb-2 font-bold text-xl">Section 1</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, repellat voluptatem! Veritatis debitis voluptas perspiciatis expedita, numquam iure totam ratione quo officia sapiente quia similique dolorum, recusandae laudantium nostrum inventore.</p>
-     --> 
+	 </div>
 	  </section>
       <div class="mx-auto my-4 p-4 max-w-3xl text-center"><a class="px-6 py-2 leading-none bg-transparent border border-main rounded-xl text-lg text-main hover:bg-main hover:text-white transition-colors" id="capture1" href="">簽名檔產生為截圖</a></div>
       <hr class="my-8 mx-auto max-w-3xl border-t border-gray-500 border-dashed"/>
-
- 
- 
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-<script src="dist/main.min.js"></script>
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.js "></script>
-<script src="https://ajax.aspnetcdn.com/ajax/knockout/knockout-3.0.0.js "></script>
-<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
-  <script>
-    $(":button").click(function() {
-      html2canvas($("table")[0]).then(function(canvas) {
-          var $div = $("fieldset div");
-          $div.empty();
-          $("<img />", { src: canvas.toDataURL("image/png") }).appendTo($div);
-      });
-    });
-  </script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+	<script src="dist/main.min.js"></script>
   </body>
 </html>
